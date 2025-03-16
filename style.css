@@ -1,0 +1,130 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-image {
+    width: 200%;
+    height: 600px;     /* Set fixed height */
+    object-fit: cover;
+  }
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.about img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+/* Creations Section */
+.creations {
+    text-align: center;
+    padding: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.see-all {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
